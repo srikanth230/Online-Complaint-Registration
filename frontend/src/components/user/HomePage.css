@@ -1,0 +1,77 @@
+/* Gradient Colors */
+.bg-gradient-primary {
+    background: linear-gradient(90deg, #6a11cb, #3168c7); /* Purple to Blue */
+    color: white;
+  }
+  
+  .bg-gradient-light {
+    background: linear-gradient(90deg, #ffffff, #f8f9fa); /* Subtle white gradient */
+  }
+  
+  /* Buttons */
+  .btn-gradient-danger {
+    background: linear-gradient(90deg, #f12711, #f5af19); /* Red to Orange */
+    color: white;
+    border: none;
+  }
+  .btn-gradient-danger:hover {
+    background: linear-gradient(90deg, #f5af19, #f12711);
+  }
+  
+  /* Navbar Links */
+  .navbar .nav-link {
+    color: white;
+    margin-right: 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  .navbar .nav-link:hover {
+    color: #ffd700; /* Gold hover effect */
+  }
+  .navbar .active-link {
+    font-weight: bold;
+    color: #ffd700;
+    text-decoration: underline;
+  }
+  
+  /* Smooth component transitions */
+  .fade-in {
+    animation: fadeIn 0.5s;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background: linear-gradient(90deg, #2575fc, #6a11cb); /* Reverse gradient */
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  .footer a {
+    color: #ffd700; /* Gold links */
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+    .nav-link {
+      font-size: 0.9rem;
+    }
+    .btn {
+      font-size: 0.8rem;
+    }
+  }
+  
